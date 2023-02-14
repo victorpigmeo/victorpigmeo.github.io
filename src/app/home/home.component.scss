@@ -1,0 +1,21 @@
+.container{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    mat-card{
+        width: 20%;
+    }
+
+    mat-card-content{
+        flex-wrap: wrap;
+    }
+
+}
+    @media screen and (max-width: 768px) {
+        .container{
+            flex-direction: column;
+        }
+    }

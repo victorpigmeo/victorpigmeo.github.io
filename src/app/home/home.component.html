@@ -1,0 +1,16 @@
+<div class="container">
+    <mat-card *ngFor="let project of projects">
+        <img mat-card-image alt="Angular Logo" src="{{project.logo}}"/>
+        <mat-card-header>
+            <mat-card-title>
+                <span>{{project.title}}</span>
+            </mat-card-title>
+            <mat-card-subtitle>
+                <span>{{project.subtitle}}</span>
+            </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <span> {{project.shortDescription}}</span>
+        </mat-card-content>
+    </mat-card>
+</div>
